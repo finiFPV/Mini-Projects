@@ -1,0 +1,17 @@
+# Use a specific Node.js version instead of 'latest' for better consistency and reproducibility
+FROM node:14
+
+# Set the working directory inside the container
+WORKDIR /app
+
+# Copy just the package.json first to leverage Docker's layer caching mechanism
+COPY package.json ./
+
+# Install dependencies
+RUN npm install --production
+
+# Copy the rest of the application code
+COPY index.js ./
+
+# Define the command to run the application
+CMD ["npm", "start"]

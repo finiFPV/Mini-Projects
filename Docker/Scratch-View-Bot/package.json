@@ -1,0 +1,17 @@
+{
+  "name": "scratch-view-bot",
+  "version": "1.0.0",
+  "description": "Worker for view botting on Scratch",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "fininimini",
+  "license": "MIT",
+  "dependencies": {
+    "mongodb": "^5.2.0"
+  },
+  "engines": {
+    "node": ">=12.0.0"
+  }
+}

@@ -1,0 +1,12 @@
+version: '3'
+
+services:
+  scratch-view-bot:
+    image: fininimini/scratch-view-bot:js
+    container_name: Scratch-View-Bot
+    restart: unless-stopped
+    environment:
+      # Replace the placeholder with your MongoDB URL
+      MONGO_URL: "mongodb://your-mongodb-url"
+      # Replace the placeholder with your worker's name
+      NAME: "YourWorkerName"

@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+  sensor-bot:
+    image: fininimini/sensor-bot
+    container_name: Sensor-Bot
+    restart: unless-stopped
+    environment:
+      - botToken=Change_to_your_own_discord_bot's_token
+      - channelID=Change_to_your_own_discord_channel's_ID
