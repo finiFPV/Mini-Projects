@@ -70,11 +70,3 @@ To run the bot in a Docker container:
 ## Logging
 
 Error logging is implemented using a log file (`output.log`) located in the project directory. Errors and status messages are logged with timestamps for easy tracking.
-
-## Contributing
-
-Contributions are welcome! Feel free to open issues or pull requests for any improvements or feature requests.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.

@@ -1,12 +1,12 @@
 {
   "name": "scratch-view-bot",
   "version": "1.0.0",
-  "description": "Worker for view botting on Scratch",
+  "description": "This project aims to automate view generation on Scratch projects using MongoDB integration for configuration and tracking purposes.",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
   },
-  "author": "fininimini",
+  "author": "finiFPV",
   "license": "MIT",
   "dependencies": {
     "mongodb": "^5.2.0"

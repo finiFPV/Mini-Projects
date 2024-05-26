@@ -1,0 +1,22 @@
+{
+  "name": "encryption-utility",
+  "version": "1.0.0",
+  "description": "A Node.js utility for encrypting and decrypting text or files securely using AES-256-CBC and RSA encryption.",
+  "main": "encryption_utility.js",
+  "scripts": {
+    "start": "node encryption_utility.js"
+  },
+  "keywords": [
+    "encryption",
+    "security",
+    "nodejs"
+  ],
+  "author": "finiFPV",
+  "license": "MIT",
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  },
+  "engines": {
+    "node": ">=12.0.0"
+  }
+}

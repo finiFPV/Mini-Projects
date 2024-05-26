@@ -1,0 +1,29 @@
+{
+  "name": "discord-bot",
+  "version": "1.0.0",
+  "description": "A Discord bot designed to automate the generation and management of private voice channels, ensuring seamless user experience by automatically creating and closing channels based on user activity.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "finiFPV",
+  "license": "MIT",
+  "keywords": [
+    "discord",
+    "bot",
+    "javascript"
+  ],
+  "engines": {
+    "node": ">=14"
+  },
+  "dependencies": {
+    "discord.js": "^14.7.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.2.0",
+    "eslint-config-airbnb-base": "^16.0.3",
+    "eslint-plugin-import": "^2.25.2",
+    "prettier": "^2.5.1"
+  }
+}
